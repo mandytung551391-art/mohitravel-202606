@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOHI TRAVEL - 旅遊世界</title>
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Icons CSS -->
+    <link rel="stylesheet" href="css/icons.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <i class="fas fa-suitcase-rolling"></i> MOHI TRAVEL
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">首頁</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">關於我們</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">旅遊國度</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">聯絡我們</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#login">登入</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel Section -->
+    <section id="home" class="carousel-section">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/TURKEY.jpg" class="d-block w-100" alt="土耳其">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/pexels-anthony-rahayel-125801377-16107643.jpg" class="d-block w-100" alt="阿曼">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/MOROCCO.jpg" class="d-block w-100" alt="摩洛哥">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/IRAN.jpg" class="d-block w-100" alt="伊朗">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/ARB.jpg" class="d-block w-100" alt="埃及">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="about-title">歷史塵埃中閃躍的感動</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="images/pexels-rayn-l-1656184-3163677.jpg" alt="關於我們" class="img-fluid about-image">
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-text">
+                        <h3>MOHI TRAVEL</h3>
+                        <p>
+                            我們致力於提供最優質的旅遊體驗，帶領遊客探索世界各地的文化瑰寶。從古老的歷史遺跡到現代的城市風光，我們精心策畫每一個旅程，確保您能深入體驗當地文化、品嚐特色美食，以及感受不同地區的獨特魅力。
+                        </p>
+                        <p>
+                            我們的專業團隊擁有豐富的旅遊知識和經驗，致力於創造難忘的旅遊回憶。無論您是冒險愛好者、文化探險家還是休閒旅遊者，我們都能為您量身訂製最完美的旅遊方案。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+        <div class="container">
+            <h2 class="products-title">旅遊國度</h2>
+            <div class="row g-4">
+                <!-- Turkey Card -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="product-card card-turkey">
+                        <img src="images/TURKEY.jpg" alt="土耳其美食" class="product-card-img">
+                        <div class="product-card-body">
+                            <h5 class="product-card-title">TURKEY</h5>
+                            <p class="product-card-text">
+                                土耳其烤肉與傳統美食<br>品嚐異國風味
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Oman Card -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="product-card card-oman">
+                        <img src="images/pexels-anthony-rahayel-125801377-16107643.jpg" alt="阿曼美食" class="product-card-img">
+                        <div class="product-card-body">
+                            <h5 class="product-card-title">OMAN</h5>
+                            <p class="product-card-text">
+                                傳統烤肉與香料盛宴<br>中東風味之旅
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Morocco Card -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="product-card card-morocco">
+                        <img src="images/MOROCCO.jpg" alt="摩洛哥美食" class="product-card-img">
+                        <div class="product-card-body">
+                            <h5 class="product-card-title">MOROCCO</h5>
+                            <p class="product-card-text">
+                                摩洛哥塔吉鍋盛宴<br>北非美食文化
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Iran Card -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="product-card card-iran">
+                        <img src="images/IRAN.jpg" alt="伊朗美食" class="product-card-img">
+                        <div class="product-card-body">
+                            <h5 class="product-card-title">IRAN</h5>
+                            <p class="product-card-text">
+                                波斯烤串與香飯<br>千年美食傳統
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Egypt Card -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="product-card card-egypt">
+                        <img src="images/ANNA.jpg" alt="埃及美食" class="product-card-img">
+                        <div class="product-card-body">
+                            <h5 class="product-card-title">EGYPT</h5>
+                            <p class="product-card-text">
+                                埃及傳統佳餚<br>尼羅河畔美食文化
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Saudi Arabia Card -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="product-card card-saudi">
+                        <img src="images/ARB.jpg" alt="沙地阿拉伯美食" class="product-card-img">
+                        <div class="product-card-body">
+                            <h5 class="product-card-title">SAUDI ARABIA</h5>
+                            <p class="product-card-text">
+                                沙地阿拉伯傳統烤肉<br>海灣美食精華
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <h3 class="footer-title">聯絡我們</h3>
+            
+            <!-- Social Icons -->
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank" title="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://youtube.com" target="_blank" title="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <h4 style="color: #2c5aa0; font-weight: bold; margin-bottom: 20px;">MOHI TRAVEL</h4>
+                
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>02-25513-9100</span>
+                </div>
+                
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>台北市忠孝東路四段188號9樓</span>
+                </div>
+                
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>Mandy.Tung551391@Gmail.Com</span>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="copyright">
+                <p>&copy; 2024 MOHI TRAVEL. 版權所有，翻印必究。</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
