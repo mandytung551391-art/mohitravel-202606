@@ -215,3 +215,17 @@ body {
     margin-top: 20px;
     font-size: 0.9rem;
 }
+a.btnstyle {
+  color:white;
+  background-color:hsl(50 33% 25%);
+  font-size: 50px;
+  padding: 30px 40px;
+  border:2px solid #007bff;
+  border-radius:20px;
+  cursor: pointer;
+  text-decoration: none;
+  line-height:3em;
+}
+a.btnstyle:hover {
+  background-color:#00438a;
+}
