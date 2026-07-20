@@ -277,3 +277,11 @@ website/
 **最後更新**: 2026-06-22  
 **維護人員**: [您的名稱]  
 **狀態**: 活躍維護中
+## 對外公開網址 
+https://mandytung551391-art.github.io/mohitravel-202606/
+
+## github
+https://github.com/mandytung551391-art/mohitravel-202606
+
+## ssh 
+git@github.com:mandytung551391-art/mohitravel-202606.git
