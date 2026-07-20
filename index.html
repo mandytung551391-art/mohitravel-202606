@@ -240,9 +240,52 @@
                 <p>&copy; 2024 MOHI TRAVEL. 版權所有，翻印必究。</p>
             </div>
         </div>
+        <a href="#" type="button" class="btnstyle" id="btnstyle">李厚 挖低家</a>
     </footer>
 
     <!-- Bootstrap JS -->
     <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+        (function(){
+            var btn = document.getElementById('btnstyle') || document.querySelector('.btnstyle');
+            if(!btn) return;
+            btn.addEventListener('click', function(){
+                var eventParams = {
+                    currency: "USD",
+                    value: 30.03,
+                    coupon: "SUMMER_FUN",
+                    payment_type: "Credit Card",
+                    items: [
+                        {
+                            item_id: "SKU_12345",
+                            item_name: "Stan and Friends Tee",
+                            affiliation: "Google Merchandise Store",
+                            coupon: "SUMMER_FUN",
+                            discount: 2.22,
+                            index: 0,
+                            item_brand: "Google",
+                            item_category: "Apparel",
+                            item_category2: "Adult",
+                            item_category3: "Shirts",
+                            item_category4: "Crew",
+                            item_category5: "Short sleeve",
+                            item_list_id: "related_products",
+                            item_list_name: "Related Products",
+                            item_variant: "green",
+                            location_id: "ChIJIQBpAG2ahYAR_6128GcTUEo",
+                            price: 10.01,
+                            google_business_vertical: "retail",
+                            quantity: 3
+                        }
+                    ]
+                };
+                if (typeof gtag === 'function') {
+                    gtag('event', 'add_to_cart', eventParams);
+                } else {
+                    console.warn('gtag not defined');
+                }
+            }, false);
+        })();
+        </script>
 </body>
 </html>
