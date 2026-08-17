@@ -45,9 +45,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">聯絡我們</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#login">登入</a>
-                    </li>
                 </ul>
             </div>
         </div>
@@ -80,6 +77,17 @@
                     <img src="images/ARB.jpg" class="d-block w-100" alt="埃及">
                 </div>
             </div>
+
+            <div class="carousel-overlay">
+                <p class="eyebrow">Curated Journeys</p>
+                <h1>世界，從此成為你的私人故事</h1>
+                <p class="lead">專為熱愛文化、美食與沉浸式旅行的您，設計更有深度、更有格調的旅程。</p>
+                <div class="hero-actions">
+                    <a href="#products" class="btn btn-primary btn-brand">探索旅程</a>
+                    <a href="about.html" class="btn btn-outline-light btn-brand-outline">關於我們</a>
+                </div>
+            </div>
+
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon"></span>
             </button>
@@ -92,6 +100,7 @@
     <!-- About Section -->
     <section id="about" class="about-section">
         <div class="container">
+            <span class="section-tag">WHY MOHI</span>
             <h2 class="about-title">歷史塵埃中閃躍的感動</h2>
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
@@ -107,8 +116,8 @@
                             我們的專業團隊擁有豐富的旅遊知識和經驗，致力於創造難忘的旅遊回憶。無論您是冒險愛好者、文化探險家還是休閒旅遊者，我們都能為您量身訂製最完美的旅遊方案。
                         </p>
                     </div>
-                    <div class="about-cta mt-3">
-                        <a href="https://lin.ee/Z0IdrxL" target="_blank" rel="noopener noreferrer">
+                    <div class="about-cta mt-4">
+                        <a href="https://lin.ee/Z0IdrxL" target="_blank" rel="noopener noreferrer" class="line-button">
                             <img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="加入好友" height="36" border="0">
                         </a>
                     </div>
@@ -120,82 +129,49 @@
     <!-- Products Section -->
     <section id="products" class="products-section">
         <div class="container">
+            <span class="section-tag">Signature Destinations</span>
             <h2 class="products-title">旅遊國度</h2>
             <div class="row g-4">
-                <!-- Turkey Card -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="product-card card-turkey">
+                <div class="col-md-6 col-lg-3">
+                    <div class="product-card">
                         <img src="images/TURKEY.jpg" alt="土耳其美食" class="product-card-img">
                         <div class="product-card-body">
-                            <h5 class="product-card-title">TURKEY</h5>
-                            <p class="product-card-text">
-                                土耳其烤肉與傳統美食<br>品嚐異國風味
-                            </p>
+                            <span class="product-country">TURKEY</span>
+                            <h5 class="product-card-title">東西交匯的文化之旅</h5>
+                            <p class="product-card-text">土耳其烤肉與傳統美食，帶您感受異域風情與深厚歷史。</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Oman Card -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="product-card card-oman">
+                <div class="col-md-6 col-lg-3">
+                    <div class="product-card">
                         <img src="images/pexels-anthony-rahayel-125801377-16107643.jpg" alt="阿曼美食" class="product-card-img">
                         <div class="product-card-body">
-                            <h5 class="product-card-title">OMAN</h5>
-                            <p class="product-card-text">
-                                傳統烤肉與香料盛宴<br>中東風味之旅
-                            </p>
+                            <span class="product-country">OMAN</span>
+                            <h5 class="product-card-title">山海與香料交織</h5>
+                            <p class="product-card-text">阿曼的悠閒節奏、自然景觀與中東文化風格，令人難忘。</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Morocco Card -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="product-card card-morocco">
+                <div class="col-md-6 col-lg-3">
+                    <div class="product-card">
                         <img src="images/MOROCCO.jpg" alt="摩洛哥美食" class="product-card-img">
                         <div class="product-card-body">
-                            <h5 class="product-card-title">MOROCCO</h5>
-                            <p class="product-card-text">
-                                摩洛哥塔吉鍋盛宴<br>北非美食文化
-                            </p>
+                            <span class="product-country">MOROCCO</span>
+                            <h5 class="product-card-title">色彩與故事的盛宴</h5>
+                            <p class="product-card-text">從市集到沙漠，摩洛哥的風景與風味都帶有明亮的生命力。</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Iran Card -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="product-card card-iran">
-                        <img src="images/IRAN.jpg" alt="伊朗美食" class="product-card-img">
-                        <div class="product-card-body">
-                            <h5 class="product-card-title">IRAN</h5>
-                            <p class="product-card-text">
-                                波斯烤串與香飯<br>千年美食傳統
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Egypt Card -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="product-card card-egypt">
+                <div class="col-md-6 col-lg-3">
+                    <div class="product-card">
                         <img src="images/ANNA.jpg" alt="埃及美食" class="product-card-img">
                         <div class="product-card-body">
-                            <h5 class="product-card-title">EGYPT</h5>
-                            <p class="product-card-text">
-                                埃及傳統佳餚<br>尼羅河畔美食文化
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Saudi Arabia Card -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="product-card card-saudi">
-                        <img src="images/ARB.jpg" alt="沙地阿拉伯美食" class="product-card-img">
-                        <div class="product-card-body">
-                            <h5 class="product-card-title">SAUDI ARABIA</h5>
-                            <p class="product-card-text">
-                                沙地阿拉伯傳統烤肉<br>海灣美食精華
-                            </p>
+                            <span class="product-country">EGYPT</span>
+                            <h5 class="product-card-title">文明與美食的交會</h5>
+                            <p class="product-card-text">探索尼羅河文明與異國風味所交織出的深度旅程。</p>
                         </div>
                     </div>
                 </div>
@@ -269,53 +245,9 @@
                 <p>&copy; 2024 MOHI TRAVEL. 版權所有，翻印必究。</p>
             </div>
         </div>
-        <a href="#" type="button" class="btnstyle" id="btnstyle">加入購物車</a>
     </footer>
 
     <!-- Bootstrap JS -->
     <script src="js/bootstrap.bundle.min.js"></script>
-        <script>
-        (function(){
-            var btn = document.getElementById('btnstyle') || document.querySelector('.btnstyle');
-            if(!btn) return;
-            btn.addEventListener('click', function(){
-                var eventParams = {
-                    currency: "TWD",
-                    value: 1000,
-                    coupon: "SUMMER_FUN",
-                    payment_type: "Credit Card",
-                    items: [
-                        {
-                            item_id: "SKU_12345",
-                            item_name: "Stan and Friends Tee",
-                            affiliation: "Google Merchandise Store",
-                            coupon: "SUMMER_FUN",
-                            discount: 2.22,
-                            index: 0,
-                            item_brand: "Google",
-                            item_category: "Apparel",
-                            item_category2: "Adult",
-                            item_category3: "Shirts",
-                            item_category4: "Crew",
-                            item_category5: "Short sleeve",
-                            item_list_id: "related_products",
-                            item_list_name: "Related Products",
-                            item_variant: "green",
-                            location_id: "ChIJIQBpAG2ahYAR_6128GcTUEo",
-                            price: 10.01,
-                            google_business_vertical: "retail",
-                            quantity: 3
-                        }
-                    ]
-                };
-                if (typeof gtag === 'function') {
-                    gtag('event', 'add_to_cart', eventParams);
-                } else {
-                    console.warn('gtag not defined');
-                }
-                window.location.href = 'goal.html';
-            }, false);
-        })();
-        </script>
 </body>
 </html>
